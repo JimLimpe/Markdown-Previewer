@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+body, html {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  width: 100%;
+  max-width: 100%;
+}
+
+.main {
+  display: grid;
+  grid-gap: 15px;
+  margin-top: 40px;
+  grid-template-columns:  1fr;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 20px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+#editor, #preview {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #c0d8d8;
+  
+}
+
+#editor {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  resize: vertical
+}
